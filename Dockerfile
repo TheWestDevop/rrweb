@@ -15,3 +15,5 @@ RUN apt-get update \
     && git clone https://github.com/passcod/cargo-watch.git \
     && cd cargo-watch \
     && cargo build
+
+EXPOSE 8000
